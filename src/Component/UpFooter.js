@@ -3,7 +3,7 @@ import React from "react";
 const UpFooter = () => {
   return (
     <>
-      <section className="up-footer px-5 mt-16 sm:mt-28 sm:px-28">
+      <section className="up-footer px-5 mt-20 sm:mt-28 sm:px-28">
         <h1 className="up-footer-title text-2xl sm:text-4xl font-semibold text-[#363636]">
           Explore the other option for you here
         </h1>
