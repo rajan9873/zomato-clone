@@ -3,7 +3,7 @@ import React from "react";
 const LowerCards = () => {
   return (
     <>
-      <section className="lower-cards grid grid-cols-2 mx-4 gap-3 mt-4 max-w-[70rem] md:mx-auto md:px-4">
+      <section className="lower-cards grid grid-cols-2 mx-4 gap-3 mt-[1.16rem] max-w-[70rem] md:mx-auto md:px-4">
         <div className="card relative cursor-pointer hover:scale-105 ease-in-out duration-300 h-60">
           <img
             src="zomato-card-a1.webp"

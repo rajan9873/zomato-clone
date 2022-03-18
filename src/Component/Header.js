@@ -68,7 +68,7 @@ const Header = () => {
           <img
             src="zomato-bar-logo2.webp"
             alt="logo"
-            className="logo-img w-[16rem] sm:w-[18rem] mx-auto"
+            className="logo-img w-[15rem] sm:w-[18rem] mx-auto"
           />
         </div>
         <h1 className="header-title font-montserrat text-white text-[2.18rem]  text-center mt-7 font-normal">

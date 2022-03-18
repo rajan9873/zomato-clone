@@ -3,12 +3,12 @@ import React from "react";
 const UpFooter = () => {
   return (
     <>
-      <section className="up-footer px-5 mt-16 sm:mt-28 sm:px-28">
-        <h1 className="up-footer-title text-2xl sm:text-4xl font-semibold text-[#363636]">
+      <section className="up-footer px-4 mt-16 sm:mt-28 sm:px-28">
+        <h1 className="up-footer-title text-[1.6rem] sm:text-4xl font-semibold text-[#363636]">
           Explore the other option for you here
         </h1>
         <div className="up-footer-a mt-[2.1rem] sm:mt-10">
-          <h1 className="text-[1.17rem] sm:text-2xl font-semibold text-[#363636]">
+          <h1 className="text-[1.2rem] sm:text-2xl font-semibold text-[#363636]">
             Popular cuisines near me
           </h1>
           <p className="text-[#444343] mt-2 sm:mt-4 text-[0.9rem] sm:text-base">
@@ -20,7 +20,7 @@ const UpFooter = () => {
           </p>
         </div>
         <div className="up-footer-b mt-[1.8rem] sm:mt-8">
-          <h1 className="text-[1.17rem] sm:text-2xl font-semibold text-[#363636]">
+          <h1 className="text-[1.2rem] sm:text-2xl font-semibold text-[#363636]">
             Popular reastraunt types near me
           </h1>
           <p className="text-[#444343] mt-2 sm:mt-4 text-[0.9rem] sm:text-base">
@@ -33,7 +33,7 @@ const UpFooter = () => {
           </p>
         </div>
         <div className="up-footer-b mt-[1.8rem] sm:mt-8">
-          <h1 className="text-[1.17rem] sm:text-2xl font-semibold text-[#363636]">
+          <h1 className="text-[1.2rem] sm:text-2xl font-semibold text-[#363636]">
             Popular reastraunt to visit
           </h1>
           <p className="text-[#444343] mt-2 sm:mt-4 text-[0.9rem] sm:text-base">
