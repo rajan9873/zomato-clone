@@ -11,7 +11,7 @@ const LowerCards = () => {
             className="card-img rounded-xl w-full h-full object-cover"
           />
           <div className="title-container bg-white pt-3 pb-4 px-2 absolute w-full bottom-0 rounded-b-xl">
-            <h1 className="card-titl text-gray-800 lg:text-[1.18rem] lg:font-normal text-[rgb(54, 54, 54)] text-center">
+            <h1 className="card-titl text-gray-800 text-[0.92rem] lg:text-[1.18rem] lg:font-normal text-[rgb(54, 54, 54)] text-center">
               Order Food Online
             </h1>
           </div>
@@ -23,7 +23,7 @@ const LowerCards = () => {
             className="card-img rounded-xl w-full h-full object-cover"
           />
           <div className="title-container bg-white pt-3 pb-4 px-2 absolute w-full bottom-0 rounded-b-xl">
-            <h1 className="card-titl text-gray-800 lg:text-[1.18rem] lg:font-normal text-[rgb(54, 54, 54)] text-center">
+            <h1 className="card-titl text-gray-800 text-[0.92rem] lg:text-[1.18rem] lg:font-normal text-[rgb(54, 54, 54)] text-center">
               Go Out For A Meal
             </h1>
           </div>
@@ -35,7 +35,7 @@ const LowerCards = () => {
             className="card-img rounded-xl w-full h-full object-cover"
           />
           <div className="title-container bg-white pt-3 pb-4 px-2 absolute w-full bottom-0 rounded-b-xl">
-            <h1 className="card-title text-gray-800 lg:text-[1.18rem] lg:font-normal text-[rgb(54, 54, 54)]  text-center">
+            <h1 className="card-title text-gray-800 lg:text-[1.18rem] text-[0.92rem] lg:font-normal text-[rgb(54, 54, 54)]  text-center">
               Zomato Pro
             </h1>
           </div>
@@ -47,7 +47,7 @@ const LowerCards = () => {
             className="card-img rounded-xl w-full h-full object-cover"
           />
           <div className="title-container bg-white pt-3 pb-4 px-2 absolute w-full bottom-0 rounded-b-xl">
-            <h1 className="card-title text-gray-800 lg:text-[1.18rem] lg:font-normal text-[rgb(54, 54, 54)] text-center">
+            <h1 className="card-title text-gray-800 lg:text-[1.18rem] text-[0.92rem] lg:font-normal text-[rgb(54, 54, 54)] text-center">
               Nightlife & Clubs
             </h1>
           </div>

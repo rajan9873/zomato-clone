@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <section className="footer px-7 sm:px-28 mt-8 sm:mt-28 bg-[#f8f8f8] pt-12">
+      <section className="footer px-7 sm:px-28 mt-16 sm:mt-28 bg-[#f8f8f8] pt-12">
         <div className="footer-top flex space-x-16 sm:justify-start sm:space-x-28">
           <div className="footer-a">
             <h1 className="font-semibold tracking-widest">COMPANY</h1>

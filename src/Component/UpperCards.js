@@ -4,7 +4,7 @@ const UpperCards = () => {
   return (
     <>
       <section className="upper-cards mx-4 mt-20 max-w-[70rem] md:mx-auto md:px-4">
-        <h1 className="upper-card-title text-2xl font-semibold font-montserrat md:text-[2rem]">
+        <h1 className="upper-card-title text-[1.67rem] sm:text-3xl font-semibold font-montserrat md:text-[2rem]">
           Collection
         </h1>
         <p className="upper-cards-description mt-1 md:mt-3 text-gray-600 font-light leading-5 text-[0.96rem] sm:text-[1.05rem]">
