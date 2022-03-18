@@ -3,7 +3,7 @@ import React from "react";
 const UpperCards = () => {
   return (
     <>
-      <section className="upper-cards mx-4 mt-12 max-w-[70rem] md:mx-auto md:px-4">
+      <section className="upper-cards mx-4 mt-16 max-w-[70rem] md:mx-auto md:px-4">
         <h1 className="upper-card-title text-[1.67rem] sm:text-3xl font-semibold font-montserrat md:text-[2rem]">
           Collection
         </h1>
