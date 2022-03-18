@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  height: 26.4rem;
+}
+
+.upper-card {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+}
+
+.header-input {
+  height: 1.7rem;
+}
+
+.header-input::placeholder {
+  font-weight: 400;
+  color: #898989;
+  font-size: 0.9rem;
+  vertical-align: center;
+}
+
+@media (min-width: 640px) {
+  .upper-grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 470px) {
+  .lower-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 469px) {
+  .card {
+    height: 10rem;
+  }
+
+  .upper-card {
+    height: 17rem;
+  }
+}
+
+@media (max-width: 430px) {
+  header {
+    height: 22rem;
+  }
+
+  .title-container {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .upper-card {
+    height: 15rem;
+  }
+
+  .header-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+}
+
+.title-container h1 {
+  font-weight: 500;
+  color: rgb(54, 54, 54);
+}
+
+.title-container {
+  border: 1px solid rgb(232, 232, 232);
+}
+
+/* input container */
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: rgb(212, 65, 65);
+  width: 1em;
+  height: 1em;
+  border: 0.1em solid currentColor;
+  border-radius: 50%;
+  transform: translateY(0.2em);
+  display: grid;
+  place-content: center;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em rgb(212, 65, 65);
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.email-input-field::placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+
+.zomato-email-btn {
+  background-color: rgb(212, 65, 65);
+}
+
+/* footer text */
+
+.footer-text {
+  margin-top: 10px;
+}
+
+.footer-text li {
+  color: rgb(105, 105, 105);
+  font-size: 0.9rem;
+}
+
+.footer-bottom p {
+  color: rgb(105, 105, 105);
+}
