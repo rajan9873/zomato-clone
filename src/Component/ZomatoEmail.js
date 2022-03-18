@@ -3,18 +3,18 @@ import React from "react";
 const ZomatoEmail = () => {
   return (
     <>
-      <section className="zomato-email mx-auto bg-[#FFFBF7] mt-32 sm:flex justify-center py-6">
+      <section className="zomato-email mx-auto bg-[#FFFBF7] mt-32 sm:flex justify-center py-8">
         <div className="zomato-email-a hidden sm:block w-60">
           <img className="w-full" src="zomato-c1.webp" alt="img" />
         </div>
-        <div className="zomato-email-b mx-auto pt-8 px-2 sm:mx-0 max-w-[30rem] sm:ml-10">
+        <div className="zomato-email-b mx-auto pt-5 px-2 sm:mx-0 max-w-[30rem] sm:ml-10">
           <h1 className="email-title text-[1.8rem] text-center font-montserrat font-medium sm:text-left sm:text-[2.5rem]">
             Get the Zomato App
           </h1>
-          <p className="email-description text-center text-[#363636] text-[1rem] leading-[1.2rem] mt-1 sm:text-left sm:mt-3.5 sm:leading-7 px-1 font-montserrat">
+          <p className="email-description text-center text-[#363636] text-[1rem] leading-[1.2rem] mt-2 sm:text-left sm:mt-3.5 sm:leading-7 px-1 font-montserrat">
             We will send you a link, open it on your phone to download the app
           </p>
-          <div className="input-elements-container w-max mx-auto mt-5 sm:mx-0">
+          <div className="input-elements-container w-max mx-auto mt-6 sm:mx-0">
             <div className="email-radio-btn flex gap-4 sm:gap-8">
               <div className="input-container gap-1.5 flex">
                 <input type="radio" name="contact" id="email" checked />
