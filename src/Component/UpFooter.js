@@ -7,7 +7,7 @@ const UpFooter = () => {
         <h1 className="up-footer-title text-2xl sm:text-4xl font-semibold text-[#363636]">
           Explore the other option for you here
         </h1>
-        <div className="up-footer-a mt-7 sm:mt-10">
+        <div className="up-footer-a mt-[2.1rem] sm:mt-10">
           <h1 className="text-xl sm:text-2xl font-semibold text-[#363636]">
             Popular cuisines near me
           </h1>
@@ -19,7 +19,7 @@ const UpFooter = () => {
             distinctio. Nisi corporis esse ad facere commodi aliquid dolor non.
           </p>
         </div>
-        <div className="up-footer-b mt-6 sm:mt-8">
+        <div className="up-footer-b mt-[1.8rem] sm:mt-8">
           <h1 className="text-xl sm:text-2xl font-semibold text-[#363636]">
             Popular reastraunt types near me
           </h1>

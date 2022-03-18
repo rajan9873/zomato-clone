@@ -24,7 +24,7 @@ const PopularLocalities = () => {
 
   return (
     <>
-      <section className="popular-localities mx-4 md:mx-auto mt-16 sm:mt-[8rem] max-w-[70rem] md:px-4">
+      <section className="popular-localities mx-4 md:mx-auto mt-[4.5rem] sm:mt-[8rem] max-w-[70rem] md:px-4">
         <h1 className="localities-title font-medium sm:font-normal text-[#363636] text-[1.2rem] sm:text-4xl sm:text-center my-7">
           Popular localities in and around Benguluru
         </h1>

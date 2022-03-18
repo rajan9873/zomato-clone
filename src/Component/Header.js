@@ -25,7 +25,7 @@ const Header = () => {
               onClick={() => setBarActive(true)}
               className="bars md:hidden cursor-pointer"
             >
-              <FontAwesomeIcon icon={faBars} className="text-[1.35rem]" />
+              <FontAwesomeIcon icon={faBars} className="text-[1.4rem]" />
             </div>
             <span className="hidden md:block">
               <img src="downloadAppIcon.svg" alt="downloadapp" />
