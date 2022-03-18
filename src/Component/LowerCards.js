@@ -48,7 +48,7 @@ const LowerCards = () => {
           />
           <div className="title-container bg-white px-4 py-4 sm:pt-3 sm:pb-4 sm:px-2 absolute w-full bottom-0 rounded-b-xl">
             <h1 className="card-title text-gra86800 lg:text-[1.18rem] text-[0.9rem] lg:font-normal text-[rgb(54, 54, 54)] text-center">
-              Nightlife & Clubs
+              Nightlife & Clubing
             </h1>
           </div>
         </div>
