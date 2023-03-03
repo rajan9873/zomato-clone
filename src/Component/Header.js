@@ -92,7 +92,7 @@ const Header = () => {
             <div className="ml-1 mr-1.5 text-center w-full font-montserrat whitespace-nowrap font-light text-gray-800 text-sm">
               Ywca, 1,Ashok RD,Hanu
             </div>
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="#4F4F4F"
               width="16"
@@ -104,7 +104,7 @@ const Header = () => {
             >
               <title>down-triangle</title>
               <path d="M20 5.42l-10 10-10-10h20z"></path>
-            </svg>
+            </svg> */}
           </div>
           <div className="w-[2px] h-[22px] bg-gray-300 ml-[0.65rem] mr-[1rem]"></div>
           <div className="flex w-full items-center h-full mt-[-2px]">
